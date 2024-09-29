@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>kgsmart</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrap container">
+        <div class="header__top">
+          <nav class="header__top__items">
+            <ul>
+              <li><a href="#">Товары</a></li>
+              <li><a href="#">VIP поставщики</a></li>
+              <li><a href="#">Цеха</a></li>
+            </ul>
+          </nav>
+          <div class="header__top__buttons">
+            <button><span>Продавай</span> на KGMART</button>
+            <button><span>Работа</span> в KGMART</button>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="header__burger">
+            <img src="./assets/icons/menu.svg" alt="" />
+          </div>
+          <div class="header__logo">
+            <img src="./assets/icons/white_logo.svg" alt="" />
+          </div>
+          <div class="header__search">
+            <input type="text" placeholder="Найти среди 266 227 товаров..." />
+            <button><img src="./assets/icons/loupe.svg" alt="" /></button>
+          </div>
+          <nav class="header__bottom__nav">
+            <div class="header__bottom__item">
+              <img src="./assets/icons/profile.svg" alt="" />
+              <span>Войти</span>
+            </div>
+            <div class="header__bottom__item">
+              <img src="./assets/icons/messages.svg" alt="" />
+              <span>Сообщения</span>
+            </div>
+            <div class="header__bottom__item">
+              <img src="./assets/icons/delivery.svg" alt="" />
+              <span>Доставка</span>
+            </div>
+            <div class="header__bottom__item">
+              <img src="./assets/icons/shopcard tabbar.svg" alt="" />
+              <span>Корзина</span>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main container">
+      <section class="main__carousel">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/slider/img.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/slider/img2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/slider/img3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="main__categories">
+          <div
+            class="main__big__category"
+            style="background-image: url(./assets/images/categorys/img1.png)"
+          >
+            <h2 class="main__category__title">
+              Игра в кальмара <br />
+              <span>костюмы</span>
+            </h2>
+          </div>
+
+          <div class="main__mini_categorys">
+            <div
+              class="main__category"
+              style="background-image: url(./assets/images/categorys/img2.png)"
+            >
+              <h3 class="main__category__title">
+                Акция на платья для <br />
+                девочек
+              </h3>
+            </div>
+            <div
+              class="main__category"
+              style="background-image: url(./assets/images/categorys/img3.png)"
+            >
+              <h3 class="main__category__title">Таможенное <br />оформление</h3>
+            </div>
+            <div
+              class="main__category"
+              style="background-image: url(./assets/images/categorys/img4.png)"
+            >
+              <h3 class="main__category__title">
+                Подборка женских<br />
+                брюк
+              </h3>
+            </div>
+            <div
+              class="main__category"
+              style="background-image: url(./assets/images/categorys/img5.png)"
+            >
+              <h3 class="main__category__title">Женские костюмы</h3>
+            </div>
+            <div
+              class="main__category"
+              style="background-image: url(./assets/images/categorys/img6.png)"
+            >
+              <h3 class="main__category__title">
+                Топ 10 производителей<br />
+                детской одежды
+              </h3>
+            </div>
+            <div
+              class="main__category"
+              style="background-image: url(./assets/images/categorys/img7.png)"
+            >
+              <h3 class="main__category__title">Коллекция платьев</h3>
+            </div>
+          </div>
+
+          <div
+            class="main__big__category"
+            style="background-image: url(./assets/images/categorys/img7.png)"
+          >
+            <h2 class="main__category__title">
+              Документы для <br />
+              <span>маркетплейсов</span>
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="popularproducts">
+        <div class="popularproducts__header">
+          <div class="popularproducts__headerBlock">
+            <h2 class="popularproducts__title">Популярные товары</h2>
+            <ul class="popularproducts__nav">
+              <li class="popularproducts__navItem">Все товары</li>
+              <li class="popularproducts__navItem">Женские</li>
+              <li class="popularproducts__navItem">Мужские</li>
+              <li class="popularproducts__navItem">Детские</li>
+            </ul>
+          </div>
+          <div class="popularproducts__headerBlock">
+            <a href="#">Смотреть всё</a>
+          </div>
+        </div>
+        <div class="popularproducts__cards">
+          <div class="popularproducts__card">
+            <img src="./assets/images/card/img1.png" alt="" />
+            <p class="popularproducts__cardName">
+              Платье / <span class="premium">Doorbek</span
+              ><img src="./assets/icons/vip.svg" alt="" />
+            </p>
+            <p class="popularproducts__cardPrice">350 сом</p>
+          </div>
+          <div class="popularproducts__card">
+            <img src="./assets/images/card/img2.png" alt="" />
+            <p class="popularproducts__cardName">
+              Платье / <span>Aisha_43</span>
+            </p>
+            <p class="popularproducts__cardPrice">280 сом</p>
+          </div>
+          <div class="popularproducts__card">
+            <img src="./assets/images/card/img3.png" alt="" />
+            <p class="popularproducts__cardName">
+              Платье / <span class="premium">DN</span
+              ><img src="./assets/icons/vip.svg" alt="" />
+            </p>
+            <p class="popularproducts__cardPrice">600 сом</p>
+          </div>
+          <div class="popularproducts__card">
+            <img src="./assets/images/card/img4.png" alt="" />
+            <p class="popularproducts__cardName">
+              Платье / <span>Nazima </span>
+            </p>
+            <p class="popularproducts__cardPrice">1800 сом</p>
+          </div>
+          <div class="popularproducts__card">
+            <img src="./assets/images/card/img5.png" alt="" />
+            <p class="popularproducts__cardName">Платье / <span>Kenje</span></p>
+            <p class="popularproducts__cardPrice">900 сом</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="menu menu_hidden">
+
+        <div class="menu_wrap">
+          <div class="menu__close">
+            <img src="./assets/icons/close.svg" alt="" />
+            </div>
+          <nav class="menu__first">
+            <ul>
+              <li data-id="1" class="menu__firstItem">
+             <span><img src="./assets/icons/menu/icon1.svg" alt="" />Женщинам </span>  <img src="./assets/icons/arrow_down_web.svg" class="menu__arrow" alt="">
+              </li>
+              <li data-id="2" class="menu__firstItem">
+              <span><img src="./assets/icons/menu/icon2.svg" alt="" />Мужчинам</span> <img src="./assets/icons/arrow_down_web.svg" class="menu__arrow" alt="">
+              </li>
+              <!-- <li><a href="#">Детям</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Большие размеры</a></li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Коллекции</a></li> -->
+            </ul>
+          </nav>
+          <div class="menu__second">
+          </div>
+          <div class="menu__final"></div>
+          </div>
+        </div>
+      
+    
+    </div>
+
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
