@@ -1,0 +1,135 @@
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 20px;
+  }
+  .main .main__mini_categorys .main__category {
+    width: 48%;
+    max-width: 100%;
+  }
+  .popularproducts__cards {
+    flex-wrap: wrap;
+  }
+  .popularproducts__cards .popularproducts__card {
+    margin-bottom: 20px;
+  }
+  .swiper-slide {
+    width: 85vw !important;
+    height: 100% !important;
+    border-radius: 16px;
+  }
+  .swiper-slide img {
+    height: 100%;
+    width: 100%;
+  }
+  .mySwiper {
+    height: 100%;
+  }
+  .popularproducts__cards {
+    justify-content: start;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    padding-bottom: 60px;
+  }
+  .menu_bottom_mobile {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background: white;
+    border-top: 2px solid #F2F2F2;
+    width: 100vw;
+  }
+  .menu_bottom_mobile ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  .menu_bottom_mobile ul p {
+    font-size: 12px;
+    color: #BDBDBD;
+  }
+  .header__mobileSearch {
+    display: block;
+  }
+  .header .header__search {
+    display: none;
+  }
+  .header .header__bottom__nav {
+    display: none;
+  }
+  .header .header__top__items {
+    display: none;
+  }
+  .header .header__top {
+    justify-content: center;
+  }
+  .popularproducts__nav {
+    display: none !important;
+  }
+  .popularproducts__nav_mobile {
+    display: flex;
+  }
+}
+@media (max-width: 760px) {
+  .main .main__mini_categorys .main__category {
+    width: 100%;
+  }
+  .main .main__big__category {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .main__carousel {
+    height: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .main__carousel {
+    height: 240px;
+  }
+}
+@media (max-width: 500px) {
+  .main .popularproducts__cards {
+    gap: 0px;
+  }
+  .main .popularproducts__cards .popularproducts__card {
+    width: 47%;
+  }
+  .main .popularproducts__cards .popularproducts__card .popularproducts__card_image {
+    width: 100%;
+  }
+  .swiper-slide {
+    width: 77vw !important;
+  }
+}
+@media (max-width: 400px) {
+  .main .popularproducts__header .popularproducts__headerBlock:first-child .popularproducts__title {
+    font-size: 19px;
+  }
+  .main .popularproducts__nav_mobile {
+    white-space: nowrap;
+    gap: 0;
+  }
+  .main .popularproducts__nav_mobile .popularproducts__navItem {
+    font-size: 11px;
+  }
+  .header .header__top__buttons button {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 350px) {
+  .main .popularproducts__header .popularproducts__headerBlock:first-child .popularproducts__title {
+    font-size: 15px;
+  }
+  .main .popularproducts__cards .popularproducts__cardName {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=response.css.map */

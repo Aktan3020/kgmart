@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/response.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,6 +45,7 @@
             <input type="text" placeholder="Найти среди 266 227 товаров..." />
             <button><img src="./assets/icons/loupe.svg" alt="" /></button>
           </div>
+        
           <nav class="header__bottom__nav">
             <div class="header__bottom__item">
               <img src="./assets/icons/profile.svg" alt="" />
@@ -62,6 +64,7 @@
               <span>Корзина</span>
             </div>
           </nav>
+          <div class="header__mobileSearch"><img src="./assets/icons/loupe.svg" alt=""></div>
         </div>
       </div>
     </header>
@@ -170,9 +173,15 @@
             <a href="#">Смотреть всё</a>
           </div>
         </div>
+        <ul class="popularproducts__nav_mobile">
+          <li class="popularproducts__navItem">Все товары</li>
+          <li class="popularproducts__navItem">Женские</li>
+          <li class="popularproducts__navItem">Мужские</li>
+          <li class="popularproducts__navItem">Детские</li>
+        </ul>
         <div class="popularproducts__cards">
           <div class="popularproducts__card">
-            <img src="./assets/images/card/img1.png" alt="" />
+            <img src="./assets/images/card/img1.png" alt="" class="popularproducts__card_image" />
             <p class="popularproducts__cardName">
               Платье / <span class="premium">Doorbek</span
               ><img src="./assets/icons/vip.svg" alt="" />
@@ -180,14 +189,14 @@
             <p class="popularproducts__cardPrice">350 сом</p>
           </div>
           <div class="popularproducts__card">
-            <img src="./assets/images/card/img2.png" alt="" />
+            <img src="./assets/images/card/img2.png" alt=""class="popularproducts__card_image" />
             <p class="popularproducts__cardName">
               Платье / <span>Aisha_43</span>
             </p>
             <p class="popularproducts__cardPrice">280 сом</p>
           </div>
           <div class="popularproducts__card">
-            <img src="./assets/images/card/img3.png" alt="" />
+            <img src="./assets/images/card/img3.png" alt=""class="popularproducts__card_image" />
             <p class="popularproducts__cardName">
               Платье / <span class="premium">DN</span
               ><img src="./assets/icons/vip.svg" alt="" />
@@ -195,14 +204,14 @@
             <p class="popularproducts__cardPrice">600 сом</p>
           </div>
           <div class="popularproducts__card">
-            <img src="./assets/images/card/img4.png" alt="" />
+            <img src="./assets/images/card/img4.png" alt=""class="popularproducts__card_image" />
             <p class="popularproducts__cardName">
               Платье / <span>Nazima </span>
             </p>
             <p class="popularproducts__cardPrice">1800 сом</p>
           </div>
           <div class="popularproducts__card">
-            <img src="./assets/images/card/img5.png" alt="" />
+            <img src="./assets/images/card/img5.png" alt=""class="popularproducts__card_image" />
             <p class="popularproducts__cardName">Платье / <span>Kenje</span></p>
             <p class="popularproducts__cardPrice">900 сом</p>
           </div>
@@ -218,18 +227,12 @@
             </div>
           <nav class="menu__first">
             <ul>
-              <li data-id="1" class="menu__firstItem">
+              <li data-id="1"data-index="0" class="menu__firstItem">
              <span><img src="./assets/icons/menu/icon1.svg" alt="" />Женщинам </span>  <img src="./assets/icons/arrow_down_web.svg" class="menu__arrow" alt="">
               </li>
-              <li data-id="2" class="menu__firstItem">
+              <li data-id="2" data-index="1"class="menu__firstItem">
               <span><img src="./assets/icons/menu/icon2.svg" alt="" />Мужчинам</span> <img src="./assets/icons/arrow_down_web.svg" class="menu__arrow" alt="">
               </li>
-              <!-- <li><a href="#">Детям</a></li>
-                <li><a href="#">Новинки</a></li>
-                <li><a href="#">Большие размеры</a></li>
-                <li><a href="#">Распродажа</a></li>
-                <li><a href="#">Акции</a></li>
-                <li><a href="#">Коллекции</a></li> -->
             </ul>
           </nav>
           <div class="menu__second">
@@ -240,7 +243,18 @@
       
     
     </div>
-
+<div class="menu_bottom_mobile">
+  <ul>
+    <li><img src="./assets/icons/home.svg" alt="">
+    <p>Главная</p></li>
+    <li><img src="./assets/icons/chat.svg" alt="">
+    <p>Чат</p></li>
+    <li><img src="./assets/icons/shopcard tabbar (1).svg" alt="">
+    <p>Корзина</p></li>
+    <li><img src="./assets/icons/profile (1).svg  " alt="">
+    <p>Профиль</p></li>
+  </ul>
+</div>
     <script src="./assets/js/swiper.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
